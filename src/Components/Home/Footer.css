@@ -1,0 +1,9 @@
+.Footer i{
+    font-size: 40px;
+    border: 1px solid rgb(238, 75, 105);
+    padding: 18px;
+    border-radius: 5px;
+}
+h6, small{
+        color: rgb(238, 75, 105);
+}

@@ -1,0 +1,11 @@
+.aboutMe ul li::before {
+  content: "💻";
+  color: rgb(238 ,75, 105);
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin: 0 1rem 0 0;
+}
+ul li{
+    list-style: none;
+}

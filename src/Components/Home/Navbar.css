@@ -1,0 +1,32 @@
+div a,strong {
+    color: rgb(238, 75, 105);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+div a:hover {
+    color: azure;
+    transition: all 0.5s;
+}
+.navBarBg{
+    background-image: linear-gradient(to right, rgb(21 18 46), rgb(37, 36, 71), rgb(22 ,20 ,48) );
+}
+.navbar .navbar-nav .nav-link {
+    position: relative;
+    font-size: 18px;
+    color: rgb(238, 75, 105);
+}
+
+.navbar .navbar-nav .nav-link:before {
+    position: absolute;
+    content: "";
+    background: rgb(238, 75, 105);
+    width: 2.8rem;
+    height: 3px;
+    bottom: 8px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    opacity: 0;
+    transform: scaleX(0);
+    transition: .3s;
+}

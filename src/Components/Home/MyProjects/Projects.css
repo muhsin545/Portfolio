@@ -1,0 +1,75 @@
+.preview {
+  position: relative;
+  width: 100%;
+  height: 36vh;
+  overflow: hidden;
+
+  background-color: transparent;
+}
+
+.previewimg {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-image: url("../../../images/assignment-12.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position-y: 0;
+  transition: all 4s ease-in-out;
+}
+
+.previewimg:hover {
+  background-position-y: 100%;
+  height: 100%;
+  transition: all 4s ease-in-out;
+}
+.preview2 {
+  position: relative;
+  width: 100%;
+  height: 36vh;
+  overflow: hidden;
+
+  background-color: transparent;
+}
+
+.previewimg2 {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-image: url("../../../images/assignment-11.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position-y: 0;
+  transition: all 4s ease-in-out;
+}
+
+.previewimg2:hover {
+  background-position-y: 100%;
+  height: 100%;
+  transition: all 4s ease-in-out;
+}
+.preview3 {
+  position: relative;
+  width: 100%;
+  height: 36vh;
+  overflow: hidden;
+
+  background-color: transparent;
+}
+
+.previewimg3 {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-image: url("../../../images/assignment-10.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position-y: 0;
+  transition: all 4s ease-in-out;
+}
+
+.previewimg3:hover {
+  background-position-y: 100%;
+  height: 100%;
+  transition: all 4s ease-in-out;
+}
