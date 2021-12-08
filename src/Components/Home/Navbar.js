@@ -26,11 +26,15 @@ const Navbar = () => {
                                 <a style={NavbarStyle} class="nav-link activeStyle" aria-current="page" href="#project">PROJECTS</a>
                             </li>
                             <li class="nav-item">
-                                <a style={NavbarStyle} class="nav-link activeStyle" aria-current="page" href="#contact">CONTACT ME</a>
+                                <a style={NavbarStyle} class="nav-link activeStyle" aria-current="page" href="#me">About Me</a>
                             </li>
                             <li class="nav-item">
                                 <a style={NavbarStyle} class="nav-link activeStyle" aria-current="page" href="#review">Review </a>
                             </li>
+                            <li class="nav-item">
+                                <a style={NavbarStyle} class="nav-link activeStyle" aria-current="page" href="#contact">CONTACT ME</a>
+                            </li>
+
 
 
                         </ul>

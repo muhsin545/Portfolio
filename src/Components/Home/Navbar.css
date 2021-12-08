@@ -13,6 +13,7 @@ div a:hover {
 .navbar .navbar-nav .nav-link {
     position: relative;
     font-size: 18px;
+    font-weight: 500;
     color: rgb(238, 75, 105);
 }
 

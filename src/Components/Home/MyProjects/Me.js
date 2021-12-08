@@ -6,12 +6,12 @@ import './Me.css'
 function Me() {
     return (
         <div id="me">
-            <h1 style={{ color: 'rgb(238 75 105)', textTransform: 'uppercase' }} className='text-center mt-5 '>About Me</h1>
+            <h1 style={{ color: 'rgb(238 75 105)', textTransform: 'uppercase' }} className='text-center '>About Me</h1>
 
             <div data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom">
 
-                <div className="row container mx-auto p-5 my-5 align-items-center" >
+                <div className="row container mx-auto px-5  py-4 mb-5 align-items-center" >
                     <div className="col-md-7 mx-auto">
 
                         <h2><span style={{ color: 'rgb(238 75 105)', textTransform: 'uppercase' }}>Muhammod</span>  MUHIBULLAH MUHSIN</h2>
