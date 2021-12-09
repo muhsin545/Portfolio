@@ -12,10 +12,10 @@ const ContactMe = () => {
                 <div className="col-md-7 text-center">
                     <form action="https://formsubmit.co/muhibullahmuhsin545@gmail.com" method="POST">
                         <input type="hidden" name="_captcha" value="false" />
-                        <input type="text" name="name" Placeholder="Your Name" className='w-75 px-2 py-2 border-3 rounded-2  border-danger my-2' required /> <br />
-                        <input type="email" Placeholder="Your Email" className='w-75 px-2 py-2 border-3 rounded-2 border-danger' name="email" required />
+                        <input type="text" name="name" Placeholder="Your Name" className='w-100 px-2 py-2 border-3 rounded-2  border-danger my-2' required /> <br />
+                        <input type="email" Placeholder="Your Email" className='w-100 px-2 py-2 border-3 rounded-2 border-danger' name="email" required />
                         <br />
-                        <textarea name="message" Placeholder="Your Message" className='w-75 px-2 py-2 my-2 rounded-2  border-3 border-danger' cols="auto" rows="10"></textarea>                    <br />
+                        <textarea name="message" Placeholder="Your Message" className='w-100 px-2 py-2 my-2 rounded-2  border-3 border-danger' cols="auto" rows="10"></textarea>                    <br />
 
                         <button className="w-75 px-2 py-2 btn button" type="submit">SEND MESSAGE</button>
                     </form>

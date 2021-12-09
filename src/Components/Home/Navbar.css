@@ -1,33 +1,20 @@
-div a,strong {
-    color: rgb(238, 75, 105);
-    text-decoration: none;
-    text-transform: uppercase;
+a{
+    text-decoration:none;
+
 }
-div a:hover {
-    color: azure;
-    transition: all 0.5s;
+nav{
+    border-bottom: 1px solid;
+}
+.navbar-brand{
+    font-size: 35px;
+}
+.navbarRoute{
+    text-decoration: none;
+    margin: 7px 7px;
+}
+.nav-item{
+    color: rgb(220,53,69);
 }
 .navBarBg{
     background-image: linear-gradient(to right, rgb(21 18 46), rgb(37, 36, 71), rgb(22 ,20 ,48) );
-}
-.navbar .navbar-nav .nav-link {
-    position: relative;
-    font-size: 18px;
-    font-weight: 500;
-    color: rgb(238, 75, 105);
-}
-
-.navbar .navbar-nav .nav-link:before {
-    position: absolute;
-    content: "";
-    background: rgb(238, 75, 105);
-    width: 2.8rem;
-    height: 3px;
-    bottom: 8px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    opacity: 0;
-    transform: scaleX(0);
-    transition: .3s;
 }

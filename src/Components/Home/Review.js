@@ -43,7 +43,7 @@ const Review = () => {
                 >
 
                     {slide.map((singleSlide, i) => {
-                        console.log(singleSlide)
+                        // console.log(singleSlide)
                         return (
                             <SwiperSlide key={i}>
 

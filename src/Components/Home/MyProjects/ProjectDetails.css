@@ -1,0 +1,28 @@
+.imgPreview {
+  position: relative;
+    height:74vh;
+  overflow: hidden;
+  background-color: white;
+}
+
+.previewimgDetails img{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  transform:translateY(1%);
+  transition: all 3s ease-in-out;
+}
+
+.previewimgDetails img:hover {
+  transform:translateY(-90%);
+  height: 100%;
+  transition: all 3s ease-in-out;
+}
+.details ul li::before {
+  content: "🌸";
+  color: rgb(243, 57, 91);
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin: 0 1rem 0 0;
+}

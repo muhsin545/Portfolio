@@ -1,9 +1,14 @@
 .Footer i{
-    font-size: 40px;
+    font-size: 20px;
     border: 1px solid rgb(238, 75, 105);
-    padding: 18px;
+    padding: 10px;
+    margin: 3px;
     border-radius: 5px;
 }
+
 h6, small{
         color: rgb(238, 75, 105);
+}
+.Footer div a{
+    color: rgb(238, 75, 105); 
 }

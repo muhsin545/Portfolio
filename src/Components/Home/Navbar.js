@@ -1,50 +1,141 @@
 import React from 'react';
-import logo from '../../images/logo.png'
+import { NavLink } from 'react-router-dom';
+import logo from '../../images/profile-pic (2).png'
 import resume from '../../resume/Muhibullah Muhsin resume 2022 (1).pdf'
 import './Navbar.css'
 
 const Navbar = () => {
-    const NavbarStyle = { color: 'rgb(238, 75, 105)' }
+
     return (
-        <div className="">
-            <nav class="navbar navbar-expand-lg navbar-dark navBarBg">
-                <div class="container-fluid">
-                    <a class="navbar-brand " href="#home">
-                        <img src={logo} alt="" width="80" height="auto" class="d-inline-block align-text-center mx-3" />
-                        <strong> MUHSIN</strong>
-                    </a>
-
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+        <>
+            <nav className="navbar navbar-expand-lg border-0 navBarBg   navbar-light">
+                <div className="container">
+                    <NavLink to="/">
+                        <img src={logo} width="50px" className="rounded-circle " alt="" />
+                    </NavLink> <span className="text-danger fs-5 fw-bold ms-2">MUHSIN</span>
+                    <button
+                        className="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a style={NavbarStyle} class="nav-link activeStyle" aria-current="page" href="#home">HOME</a>
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                            <li className="nav-item">
+                                <NavLink
+                                    to="/home"
+                                    style={{
+                                        color: "rgb(238, 75, 105)",
+                                        fontSize: "16px",
+                                        textTransform: "uppercase",
+                                        fontWeight: "bold",
+                                        fontFamily: "Poppins"
+                                    }}
+                                    className="nav-link nav-NavLink active "
+                                >
+                                    Home
+                                </NavLink>
                             </li>
-                            <li class="nav-item">
-                                <a style={NavbarStyle} class="nav-link activeStyle" aria-current="page" href="#project">PROJECTS</a>
+                            <li className="nav-item">
+                                <NavLink
+                                    style={{
+                                        color: "rgb(238, 75, 105)",
+                                        fontSize: "16px",
+                                        textTransform: "uppercase",
+                                        fontWeight: "bold",
+                                        fontFamily: "Poppins"
+                                    }}
+                                    className="nav-link  nav-NavLink active"
+                                    to="/blogs"
+                                >
+                                    Blogs
+                                </NavLink>
                             </li>
-                            <li class="nav-item">
-                                <a style={NavbarStyle} class="nav-link activeStyle" aria-current="page" href="#me">About Me</a>
+                            <li className="nav-item">
+                                <NavLink
+                                    to="/project"
+                                    style={{
+                                        color: "rgb(238, 75, 105)",
+                                        fontSize: "16px",
+                                        textTransform: "uppercase",
+                                        fontWeight: "bold",
+                                        fontFamily: "Poppins"
+                                    }}
+                                    className="nav-link nav-NavLink active "
+                                >
+                                    My Projects
+                                </NavLink>
                             </li>
-                            <li class="nav-item">
-                                <a style={NavbarStyle} class="nav-link activeStyle" aria-current="page" href="#review">Review </a>
+                            <li className="nav-item">
+                                <NavLink
+                                    style={{
+                                        color: "rgb(238, 75, 105)",
+                                        fontSize: "16px",
+                                        textTransform: "uppercase",
+                                        fontWeight: "bold",
+                                        fontFamily: "Poppins"
+                                    }}
+                                    className="nav-link  nav-NavLink active"
+                                    to="/review"
+                                >
+                                    Review
+                                </NavLink>
                             </li>
-                            <li class="nav-item">
-                                <a style={NavbarStyle} class="nav-link activeStyle" aria-current="page" href="#contact">CONTACT ME</a>
+                            <li className="nav-item">
+                                <NavLink
+                                    to="/me"
+                                    style={{
+                                        color: "rgb(238, 75, 105)",
+                                        fontSize: "16px",
+                                        textTransform: "uppercase",
+                                        fontWeight: "bold",
+                                        fontFamily: "Poppins"
+                                    }}
+                                    className="nav-link nav-NavLink active "
+                                >
+                                    About Me
+                                </NavLink>
+                            </li>
+                            <li className="nav-item">
+                                <NavLink
+                                    style={{
+                                        color: "rgb(238, 75, 105)",
+                                        fontSize: "16px",
+                                        textTransform: "uppercase",
+                                        fontWeight: "bold",
+                                        fontFamily: "Poppins"
+                                    }}
+                                    className="nav-link  nav-NavLink active"
+                                    to="/contact"
+                                >
+                                    Contact Me
+                                </NavLink>
                             </li>
 
+                            <div class="d-flex ms-1 resume">
+                                <a style={{
+                                    color: "rgb(238, 75, 105)",
+                                    fontSize: "16px",
+                                    textTransform: "uppercase",
+                                    fontWeight: "bold",
+                                    fontFamily: "Poppins"
+                                }}
+                                    href={resume} download='Muhsin_resume'><i class="fas fa-download"></i> Dowload My Resume</a>
+                            </div>
 
 
                         </ul>
-                        <div class="d-flex ms-1">
-                            <a href={resume} download='Muhsin_resume'><i class="fas fa-download"></i> Dowload My Resume</a>
-                        </div>
                     </div>
                 </div>
             </nav>
-        </div>
+
+
+        </>
     );
 };
 
