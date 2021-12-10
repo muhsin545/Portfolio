@@ -5,8 +5,8 @@
        
         "id": 0,
         "name": "THE CAR",
-         "img": " https://i.ibb.co/FgtgMTk/assignment-10.png",
-        "features1":"This is a car selling website where users can buy a car and see the car’s details and they are able to leave their feedback.",
+         "img": "https://i.ibb.co/HgzjDfL/assignment-12.png",
+        "features1":"This is a car selling website where users can buy a car and see the car's details and they are able to leave their feedback.",
         "features2":"Admin can add a new product and see all of the orders.He is also able to delete a product if he wants.",
         "features3":"Google authentication system implemented and user’s review is available in the Home Page.",
         "desc":"This is a Full-stack website where I use React.Js Express.js Node.js and MongoDB .It's basically a simple car selling website what I made for assignment for Programming Hero",
@@ -25,7 +25,7 @@
     },
     {
         "id": 2,
-        "img": "https://i.ibb.co/HgzjDfL/assignment-12.png",
+        "img": "https://i.ibb.co/FgtgMTk/assignment-10.png",
         "name": "HEALTH CARE",
         "features1":"This is a health care related website .It contains Blogs ,some professional doctors and important departments.",
         "features2":"User can see service details if he were logged in ",

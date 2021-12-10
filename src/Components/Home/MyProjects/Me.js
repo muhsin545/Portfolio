@@ -12,13 +12,14 @@ function Me() {
                 data-aos-anchor-placement="top-bottom">
 
                 <div className="row container mx-auto px-5  py-4 mb-5 align-items-center" >
-                    <div className="col-md-7 mx-auto">
+                    <div className="col-md-7 col-sm-12">
 
                         <h2><span style={{ color: 'rgb(238 75 105)', textTransform: 'uppercase' }}>Muhammod</span>  MUHIBULLAH MUHSIN</h2>
                         I am a MERN-Stack WEB Developer.Currently I'm working with React, Node.js,Express.js and MongoDB. I also have experience  in HTML5, CSS3 and JavaScript (ES6). I am a quick learner. I believe in hard work and efficiency. That's why I am always ready to accomplish any task by working hard. I always focus on learning new technology...
-                        <div style={{ color: 'rgb(238 75 105)', textTransform: 'uppercase' }} className='my-2'>
+                        <div style={{ color: 'rgb(238 75 105)', textTransform: 'uppercase' }} className='my-2 '>
                             <p><i class="fas fa-calendar-week"></i> : 15 June 2004</p>
-                            <p><i class="fas fa-map-marker-alt"></i> : Raynagar,DoptoriPara,Mirabazar,Sylhet, Bangladesh</p>
+                            <p><i class="fas fa-map-marker-alt"></i> : Raynagar,DoptoriPara,Mirabazar,<br />
+                                Sylhet, Bangladesh</p>
                             <p><i class="fas fa-mobile-alt"></i> : +880111189898</p>
                         </div>
                         <div className="row">
