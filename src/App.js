@@ -16,6 +16,7 @@ import ProjectDetails from './Components/Home/MyProjects/ProjectDetails';
 function App() {
   return (
     <div className="App">
+
       <Router>
         <Navbar></Navbar>
         <Switch>
